@@ -5,9 +5,9 @@ Single player only.
 
 |                                                   |                                                 |                                             |
 | ------------------------------------------------- | ----------------------------------------------- | ------------------------------------------- |
-| ![menu](screenshots/01-menu-cheats-on.png)        | ![inventory](screenshots/02-menu-inventory.png) | ![spawn](screenshots/03-menu-spawn.png)     |
+| ![menu](screenshots/01-menu-cheats-on.jpg)        | ![inventory](screenshots/02-menu-inventory.jpg) | ![spawn](screenshots/03-menu-spawn.jpg)     |
 | F10 menu, cheats on                               | Inventory page                                  | Spawn weapon page                           |
-| ![aim](screenshots/04-pose-aim.png)               | ![weapon](screenshots/05-pose-weapon-2.png)     | ![weapon](screenshots/06-pose-weapon-3.png) |
+| ![aim](screenshots/04-pose-aim.jpg)               | ![weapon](screenshots/05-pose-weapon-2.jpg)     | ![weapon](screenshots/06-pose-weapon-3.jpg) |
 | Aiming show off                                   | Weapon                                          | Weapon                                      |
 | ![items](screenshots/08-game-inventory-items.png) | ![skills](screenshots/10-game-skills-1.png)     | ![skills](screenshots/11-game-skills-2.png) |
 | In-game inventory                                 | Skills                                          | Skills                                      |
