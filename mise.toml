@@ -1,0 +1,17 @@
+[tools]
+go = "1.27.4"
+
+[tasks.build]
+description = "build dist/terminator-resistance-trainer"
+run = "go build -trimpath -o dist/terminator-resistance-trainer ./cmd/terminator-resistance-trainer"
+
+[tasks.vet]
+run = "go vet ./..."
+
+[tasks.install-local]
+description = "build and install to ~/.local/bin (mise run install-local)"
+depends = ["build"]
+run = "install -Dm755 dist/terminator-resistance-trainer ~/.local/bin/terminator-resistance-trainer"
+
+[tasks.clean]
+run = "rm -rf dist"
