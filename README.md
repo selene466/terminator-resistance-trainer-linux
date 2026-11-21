@@ -58,7 +58,7 @@ terminator-resistance-trainer %command%
 
 ![Steam launch options](screenshots/13-steam-launch-options.png)
 
-"command not found"? Use the full path: `/home/YOURNAME/.local/bin/terminator-resistance-trainer %command%`
+"command not found"? Use the full path: `/home/USERNAME/.local/bin/terminator-resistance-trainer %command%`
 
 Start the game, load into a level, press **F10**.
 
