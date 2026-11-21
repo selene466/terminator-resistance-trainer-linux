@@ -1,7 +1,6 @@
 # Terminator: Resistance Trainer (Linux)
 
-F10 cheat menu for Terminator: Resistance on Linux (Steam + Proton, X11).
-Single player only.
+Trainer cheat menu for Terminator: Resistance on Linux (Proton, X11).
 
 |                                                   |                                                 |                                             |
 | ------------------------------------------------- | ----------------------------------------------- | ------------------------------------------- |
@@ -41,14 +40,15 @@ With [mise](https://mise.jdx.dev):
 mise use -g github:selene466/terminator-resistance-trainer-linux@latest
 ```
 
-Or build from source (Go 1.27+):
+Or install from source (Go 1.27+):
 
 ```sh
-git clone https://github.com/selene466/terminator-resistance-trainer-linux
-cd terminator-resistance-trainer-linux
-mise install
 mise install-local
 ```
+
+Writes `./dist/terminator-resistance-trainer`, auto install to `~/.local/bin/terminator-resistance-trainer`.
+
+## Setup
 
 Steam > right click Terminator: Resistance > Properties > General > Launch Options:
 
@@ -62,13 +62,13 @@ terminator-resistance-trainer %command%
 
 Start the game, load into a level, press **F10**.
 
-Launch option (mise puts a shim here):
+Launch option, mise may need to puts shims:
 
 ```
 ~/.local/share/mise/shims/terminator-resistance-trainer %command%
 ```
 
-Update later with `mise upgrade`.
+The trainer should work in others launcher (Heroic Launcher, Bottles, Lutris).
 
 ## Use
 
@@ -77,13 +77,11 @@ Update later with `mise upgrade`.
 - **EXP (5):** press 5 to turn it ON, then fully quit and restart the game. It is a game file change, it cannot be applied live.
 - **Inventory (6):** Up/Down select, Left/Right change amount by 10, Enter adds 100, Backspace goes back. Ammo and items only, weapons have no amount.
 - **Spawn weapon (7):** Up/Down select, Enter, then fire any weapon once. The new weapon appears in your inventory with 200 ammo.
-- Open the game's own inventory and skills with **Tab**.
 
 ## If something is wrong
 
-- **F10 does nothing:** the launch option is wrong or the game was not started from Steam. Check `~/.cache/terminator-trainer.log`.
+- **F10 does nothing:** the launch option is wrong. Check `~/.cache/terminator-trainer.log`.
 - **A cheat shows an error:** load into a level first, then try again.
-- **After a game update** cheats may refuse to apply (they check exact code patterns and stop instead of guessing).
 - **Remove EXP mod:** press 5 to turn it OFF, restart the game.
 
 ## Develop
